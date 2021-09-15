@@ -1,3 +1,8 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
 html,
 body {
   padding: 0;
@@ -13,4 +18,33 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.banner{
+  background: url('/banner.png') no-repeat;
+  background-size: cover;
+ 
+  
+}
+
+.yellow-bg-banner{
+  background: url('/main.png') no-repeat center center;
+  background-size: cover;
+  z-index: -9999 !important;
+
+
+}
+
+.t-shadow{
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+.newsletter{
+  background: url('/newsbg.png')  no-repeat bottom center; ;
+  background-size: cover;
+
+  background-color: #FFE9D5;
+  width:100%;
+
+
 }
